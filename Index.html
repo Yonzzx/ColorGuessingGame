@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Game Color</title>
+</head>
+<body>
+    <!-- Container global--> 
+    <div class="container">
+
+        <div class="container-menu" id="container-menu">
+
+            <div class="modal-game" id="modal">
+                <div class="sub">
+                    <h1>Color Guesser Game</h1>
+                    <button onclick="StartGame()">Iniciar Jogo</button>
+                    <button>Regras</button>
+                    
+            
+                </div>
+            
+            </div>
+            
+            </div>
+        
+<!-- Container principal--> 
+<div id="container-layout">
+
+
+<div class="container-pric" id="container-pric">
+    <div class="container-color">
+<h3>COR</h3>
+<div class="color" id="color">
+
+</div>
+    </div>
+    <!--Container da caixa de cor-->
+<div class="container-box">
+    <audio src="assets/sound//stage-clear-8-bit.wav"  id="sound-embaralhar"></audio>
+
+<div class="box box-1">
+</div>
+
+<div class="box box-2" >
+</div>
+
+<div class="box box-3" >
+</div>
+
+<div class="box box-4" >
+</div>
+
+<div class="box box-5">
+</div>
+
+<div class="box box-6" >
+</div>
+
+<div class="box box-7" >
+</div>
+
+<div class="box box-8">
+</div>
+
+<div class="box box-9">
+</div>
+<audio src="assets/sound/error-8-bit.wav" id="soundError"></audio>
+    </div>
+
+
+
+    <div class="container-round" id="container-round">
+   <h3>tempo</h3>
+   <p id="time"></p>
+     </div>
+
+     <div class="container-log">
+    <h4>adivinhação de cores</h4>
+    <p > adivinhar em qual das caixas é a cor exibida, clicando nela  </p>
+      <p id="msg"></p>
+    </div>
+       <audio src="assets/sound/8-bit-game-intro-loop.wav" loop id="soundIntro"></audio>
+</div>
+
+</div>
+
+
+    </div>
+
+    
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="scritp.js"></script>
+
+</body>
+</html>

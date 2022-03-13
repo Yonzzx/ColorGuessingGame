@@ -1,0 +1,335 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*contaiiner goblal*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: whitesmoke;
+    word-break: break-all;
+
+/*Container principal*/
+#container-layout{
+ display: none;
+}
+.container-pric{
+display: flex;
+justify-content:space-between;
+flex-wrap: wrap;
+align-items: center;
+width: 100%;
+
+
+/* Container da Cor*/
+.container-color{
+width: 200px;
+border: 1px solid gray;
+background-color: white;
+margin: 20px auto;
+padding: 10px;
+
+.color{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin:20px auto;
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 10px;
+    }
+}
+
+/* Container do jogo*/
+.container-box{
+    width: 300px;
+    border: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 20px auto;
+
+    /*Caixa do jogo*/
+    .box{
+        border:1px solid gray;
+        width: 80px;
+        height:80px;
+        margin: 5px;
+        transform: scale(0.9);
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.0);
+        }
+    }   
+            /*cor das caixa*/
+    .box-1{
+
+        background-color: red;
+        }
+        
+        .box-2{
+        
+         background-color: blue;
+        }
+        
+        
+        .box-3{
+        
+            background-color: black;
+        }
+        
+        .box-4{
+            background-color: aqua;
+        }
+        
+        .box-5{
+            background-color: blueviolet;
+        }
+        
+        
+        .box-6{
+            background-color: chartreuse;
+        }
+        
+        .box-7{
+            background-color: chocolate;
+        }
+        
+        .box-8{
+        
+            background-color: coral;
+        }
+        
+        .box-9{
+        
+            background-color: yellow;
+        }
+
+
+}
+
+/*Container do round*/
+.container-round{
+    justify-content: center;
+    width: 200px;
+    border: 1px solid gray;
+    background-color: white;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+    h3{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 10px;
+    }
+    p{
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+    }
+}
+.container-log{
+border: 1px solid gray;
+width: auto;
+background-color: white;
+height: auto;
+margin: 20px auto;
+padding: 5px;
+border-radius: 10px;
+
+
+h4{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: green;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: gray;
+}
+p:last-of-type{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: gray;
+}
+span{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: auto;
+}
+}
+
+}
+
+
+/*Container do menu do jogo*/
+.container-menu{
+    .modal-game{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        background-color:blueviolet;
+        width: 400px;
+        height: auto;
+        margin:20px auto;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        .sub{
+          line-height: 50px;     
+   h1{
+       text-align: center;
+       font-size: 25px;
+       font-weight: bold;
+       margin: 10px;
+       color:white;
+      }
+
+   
+  button{
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      padding: 5px;
+      border-radius: 5px;
+      border: none;
+      color: blueviolet;
+      background-color: white;
+      cursor: pointer;
+      font-weight: bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 17px;
+      transform: scale(0.9);
+      &:hover{
+          transform: scale(1.0);
+          background-color: black;
+          
+      }
+  }
+  }
+}
+  }
+  
+  
+
+  
+  
+     
+@keyframes aparece {
+    from {
+      opacity: 0;
+     
+    }
+    to{
+        opacity: 1;
+    }
+  }
+  
+  
+
+  @keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,305 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*contaiiner goblal*/
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: whitesmoke;
+  word-break: break-all;
+  /*Container principal*/
+  /*Container do menu do jogo*/
+}
+
+.container #container-layout {
+  display: none;
+}
+
+.container .container-pric {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  /* Container da Cor*/
+  /* Container do jogo*/
+  /*Container do round*/
+}
+
+.container .container-pric .container-color {
+  width: 200px;
+  border: 1px solid gray;
+  background-color: white;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.container .container-pric .container-color .color {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.container .container-pric .container-color h3 {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.container .container-pric .container-box {
+  width: 300px;
+  border: 1px solid gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  margin: 20px auto;
+  /*Caixa do jogo*/
+  /*cor das caixa*/
+}
+
+.container .container-pric .container-box .box {
+  border: 1px solid gray;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  cursor: pointer;
+}
+
+.container .container-pric .container-box .box:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.container .container-pric .container-box .box-1 {
+  background-color: red;
+}
+
+.container .container-pric .container-box .box-2 {
+  background-color: blue;
+}
+
+.container .container-pric .container-box .box-3 {
+  background-color: black;
+}
+
+.container .container-pric .container-box .box-4 {
+  background-color: aqua;
+}
+
+.container .container-pric .container-box .box-5 {
+  background-color: blueviolet;
+}
+
+.container .container-pric .container-box .box-6 {
+  background-color: chartreuse;
+}
+
+.container .container-pric .container-box .box-7 {
+  background-color: chocolate;
+}
+
+.container .container-pric .container-box .box-8 {
+  background-color: coral;
+}
+
+.container .container-pric .container-box .box-9 {
+  background-color: yellow;
+}
+
+.container .container-pric .container-round {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+  border: 1px solid gray;
+  background-color: white;
+  height: auto;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.container .container-pric .container-round h3 {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.container .container-pric .container-round p {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.container .container-pric .container-log {
+  border: 1px solid gray;
+  width: auto;
+  background-color: white;
+  height: auto;
+  margin: 20px auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.container .container-pric .container-log h4 {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: green;
+}
+
+.container .container-pric .container-log p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.container .container-pric .container-log p:last-of-type {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.container .container-pric .container-log span {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.container .container-menu .modal-game {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: blueviolet;
+  width: 400px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .container-menu .modal-game .sub {
+  line-height: 50px;
+}
+
+.container .container-menu .modal-game .sub h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+  color: white;
+}
+
+.container .container-menu .modal-game .sub button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  color: blueviolet;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.container .container-menu .modal-game .sub button:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  background-color: black;
+}
+
+@-webkit-keyframes aparece {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes aparece {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
