@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="assets/style.css">
     <title>Game Color</title>
 </head>
@@ -15,11 +16,8 @@
 
             <div class="modal-game" id="modal">
                 <div class="sub">
-                    <h1>Color Guesser Game</h1>
-                    <button onclick="StartGame()">Iniciar Jogo</button>
-                    <button>Regras</button>
-                    
-            
+                    <h1>Color Guessing Game</h1>
+                    <button id="start"  onclick="StartGame()">Iniciar Jogo</button>
                 </div>
             
             </div>
@@ -73,8 +71,14 @@
 
 
     <div class="container-round" id="container-round">
-   <h3>tempo</h3>
-   <p id="time"></p>
+   <button  id="ActiveTempo" onclick="AtivaTempo()">Ativa Contagem</button>
+   <div id="tempoL">
+    <h3>tempo</h3>
+    <p id="time"></p>
+    <input type="number" placeholder="Tempo(ex:60)" id="TempoValor" > 
+    <button id="btn-Tempo" onclick="AddTempo()">add</button>
+   </div>
+  
      </div>
 
      <div class="container-log">
